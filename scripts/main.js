@@ -37,5 +37,9 @@ function calcularSkill() {
     Com skill <strong>${currentSkill}</strong> (${currentPercent}%) até <strong>${targetSkill}</strong><br>
     Estimamos: <strong>${dias} dias e ${horas} horas</strong> (${totalHoras} horas no total) de treino.
   `;
+  console.log(resultado);
+  console.log(totalHoras);
+  console.log(dias);
+  console.log(horas);
 
 }
